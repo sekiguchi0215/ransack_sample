@@ -1,0 +1,16 @@
+<table>
+  <tbody>
+    <thead>
+      <tr>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <% @users.each do |user| %>
+      <tr>
+        <td><%= user.name %></td>
+        <td><%= user.age %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
